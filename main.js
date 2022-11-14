@@ -21,10 +21,8 @@ function buildGrid(size) {
       container.appendChild(grid);  
   }   
 }
+buildGrid(16);
 
 function changeColor(e) {
   e.target.style.backgroundColor = 'blue';
 }
-
-
-buildGrid(16);
